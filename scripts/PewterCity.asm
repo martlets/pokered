@@ -187,8 +187,9 @@ PewterCity_TextPointers:
 	dw_const PewterCityCooltrainerMText,           TEXT_PEWTERCITY_COOLTRAINER_M
 	dw_const PewterCitySuperNerd1Text,             TEXT_PEWTERCITY_SUPER_NERD1
 	dw_const PewterCitySuperNerd2Text,             TEXT_PEWTERCITY_SUPER_NERD2
-	dw_const PewterCityYoungsterText,              TEXT_PEWTERCITY_YOUNGSTER
-	dw_const PewterCityTrainerTipsText,            TEXT_PEWTERCITY_TRAINER_TIPS
+       dw_const PewterCityYoungsterText,              TEXT_PEWTERCITY_YOUNGSTER
+       dw_const PewterCityPugText,                    TEXT_PEWTERCITY_PUG
+       dw_const PewterCityTrainerTipsText,            TEXT_PEWTERCITY_TRAINER_TIPS
 	dw_const PewterCityPoliceNoticeSignText,       TEXT_PEWTERCITY_POLICE_NOTICE_SIGN
 	dw_const MartSignText,                         TEXT_PEWTERCITY_MART_SIGN
 	dw_const PokeCenterSignText,                   TEXT_PEWTERCITY_POKECENTER_SIGN
@@ -196,8 +197,7 @@ PewterCity_TextPointers:
 	dw_const PewterCityGymSignText,                TEXT_PEWTERCITY_GYM_SIGN
         dw_const PewterCitySignText,                   TEXT_PEWTERCITY_SIGN
         dw_const PewterCitySuperNerd1ItsRightHereText, TEXT_PEWTERCITY_SUPER_NERD1_ITS_RIGHT_HERE
-        dw_const PewterCityYoungsterGoTakeOnBrockText, TEXT_PEWTERCITY_YOUNGSTER_GO_TAKE_ON_BROCK
-        dw_const PewterCityPugText,                    TEXT_PEWTERCITY_PUG
+       dw_const PewterCityYoungsterGoTakeOnBrockText, TEXT_PEWTERCITY_YOUNGSTER_GO_TAKE_ON_BROCK
 
 PewterCityCooltrainerFText:
 	text_far _PewterCityCooltrainerFText
