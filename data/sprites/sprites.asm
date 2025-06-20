@@ -76,7 +76,8 @@ SpriteSheetPointerTable:
 	overworld_sprite SnorlaxSprite, 4           ; SPRITE_SNORLAX
 	overworld_sprite OldAmberSprite, 4          ; SPRITE_UNUSED_OLD_AMBER
 	overworld_sprite OldAmberSprite, 4          ; SPRITE_OLD_AMBER
-	overworld_sprite GamblerAsleepSprite, 4     ; SPRITE_UNUSED_GAMBLER_ASLEEP_1
-	overworld_sprite GamblerAsleepSprite, 4     ; SPRITE_UNUSED_GAMBLER_ASLEEP_2
-	overworld_sprite GamblerAsleepSprite, 4     ; SPRITE_GAMBLER_ASLEEP
-	assert_table_length NUM_SPRITES
+        overworld_sprite GamblerAsleepSprite, 4     ; SPRITE_UNUSED_GAMBLER_ASLEEP_1
+        overworld_sprite GamblerAsleepSprite, 4     ; SPRITE_UNUSED_GAMBLER_ASLEEP_2
+        overworld_sprite GamblerAsleepSprite, 4     ; SPRITE_GAMBLER_ASLEEP
+        overworld_sprite PugSprite, 12              ; SPRITE_PUG
+        assert_table_length NUM_SPRITES

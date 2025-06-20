@@ -194,9 +194,10 @@ PewterCity_TextPointers:
 	dw_const PokeCenterSignText,                   TEXT_PEWTERCITY_POKECENTER_SIGN
 	dw_const PewterCityMuseumSignText,             TEXT_PEWTERCITY_MUSEUM_SIGN
 	dw_const PewterCityGymSignText,                TEXT_PEWTERCITY_GYM_SIGN
-	dw_const PewterCitySignText,                   TEXT_PEWTERCITY_SIGN
-	dw_const PewterCitySuperNerd1ItsRightHereText, TEXT_PEWTERCITY_SUPER_NERD1_ITS_RIGHT_HERE
-	dw_const PewterCityYoungsterGoTakeOnBrockText, TEXT_PEWTERCITY_YOUNGSTER_GO_TAKE_ON_BROCK
+        dw_const PewterCitySignText,                   TEXT_PEWTERCITY_SIGN
+        dw_const PewterCitySuperNerd1ItsRightHereText, TEXT_PEWTERCITY_SUPER_NERD1_ITS_RIGHT_HERE
+        dw_const PewterCityYoungsterGoTakeOnBrockText, TEXT_PEWTERCITY_YOUNGSTER_GO_TAKE_ON_BROCK
+        dw_const PewterCityPugText,                    TEXT_PEWTERCITY_PUG
 
 PewterCityCooltrainerFText:
 	text_far _PewterCityCooltrainerFText
@@ -324,5 +325,9 @@ PewterCityGymSignText:
 	text_end
 
 PewterCitySignText:
-	text_far _PewterCitySignText
-	text_end
+        text_far _PewterCitySignText
+        text_end
+
+PewterCityPugText:
+        text_far _PewterCityPugText
+        text_end

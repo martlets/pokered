@@ -71,3 +71,9 @@ AgathaSprite::           INCBIN "gfx/sprites/agatha.2bpp"
 BrunoSprite::            INCBIN "gfx/sprites/bruno.2bpp"
 LoreleiSprite::          INCBIN "gfx/sprites/lorelei.2bpp"
 SeelSprite::             INCBIN "gfx/sprites/seel.2bpp"
+<<<<<<< ours
+=======
+
+SECTION "Pug Sprite", ROMX
+>>>>>>> theirs
+PugSprite::              INCBIN "gfx/sprites/pug.2bpp"

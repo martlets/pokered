@@ -135,7 +135,8 @@ ROMX $1A
 ROMX $1B
 	"Tilesets 3"
 ROMX $1C
-	"bank1C"
+        "bank1C"
+        "Pug Sprite"
 ROMX $1D
 	"Maps 19"
 	"Itemfinder 1"

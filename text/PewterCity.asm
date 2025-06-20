@@ -111,7 +111,11 @@ _PewterCityGymSignText::
 	done
 
 _PewterCitySignText::
-	text "PEWTER CITY"
-	line "A Stone Gray"
-	cont "City"
-	done
+        text "PEWTER CITY"
+        line "A Stone Gray"
+        cont "City"
+        done
+
+_PewterCityPugText::
+        text "Woof! I'm a PUG!"
+        done
